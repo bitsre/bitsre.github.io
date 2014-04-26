@@ -14,4 +14,14 @@ Test
   <input type="image" src="//static.liqpay.com/buttons/p1en.radius.png" 
   name="btn_text" />
 </form>
-Test over
+
+Pay - 3700
+<form method="POST" accept-charset="utf-8" action="https://www.liqpay.com/api/pay">
+	<input type="hidden" name="public_key" value="i67785693907" />
+	<input type="hidden" name="amount" value="3700" />
+	<input type="hidden" name="currency" value="RUB" />
+	<input type="hidden" name="description" value="0.15 BTC" />
+	<input type="hidden" name="type" value="buy" />
+	<input type="hidden" name="language" value="ru" />
+	<input type="image" src="//static.liqpay.com/buttons/p2ru.radius.png" name="btn_text" />
+</form>
